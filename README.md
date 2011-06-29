@@ -1,4 +1,4 @@
-.NET client for the SlideShowPro Director API
+A .NET client for the SlideShowPro Director API
 =============================================
 
 Easily fetch content from the SlideShowPro Director publishing platform.
@@ -14,9 +14,9 @@ Usage
 Yet to implement
 ----------------
 
-1. NuGet package
-2. MVC 3 integration
-3. Caching
+- NuGet package
+- MVC 3 integration
+- Caching
 
 License
 -------
