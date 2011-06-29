@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideShowPro", "SlideShowPro\SlideShowPro.csproj", "{BA2185D5-0447-486B-902A-8206D84853AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideShowPro.Tests", "SlideShowPro.Tests\SlideShowPro.Tests.csproj", "{1700EF6C-F8F9-44F4-B04D-F7BA31BD103C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA2185D5-0447-486B-902A-8206D84853AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2185D5-0447-486B-902A-8206D84853AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2185D5-0447-486B-902A-8206D84853AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2185D5-0447-486B-902A-8206D84853AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1700EF6C-F8F9-44F4-B04D-F7BA31BD103C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1700EF6C-F8F9-44F4-B04D-F7BA31BD103C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1700EF6C-F8F9-44F4-B04D-F7BA31BD103C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1700EF6C-F8F9-44F4-B04D-F7BA31BD103C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
