@@ -52,6 +52,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="AlbumTests.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="ContentTests.cs" />
