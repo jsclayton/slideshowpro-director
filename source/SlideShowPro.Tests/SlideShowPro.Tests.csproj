@@ -55,10 +55,10 @@
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="AlbumTests.cs" />
+    <Compile Include="Director\AlbumTests.cs" />
     <Compile Include="Config.cs" />
-    <Compile Include="ContentTests.cs" />
-    <Compile Include="GalleryTests.cs" />
+    <Compile Include="Director\ContentTests.cs" />
+    <Compile Include="Director\GalleryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -68,9 +68,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SlideShowPro\SlideShowPro.csproj">
+    <ProjectReference Include="..\SlideShowPro.Director\SlideShowPro.Director.csproj">
       <Project>{BA2185D5-0447-486B-902A-8206D84853AD}</Project>
-      <Name>SlideShowPro</Name>
+      <Name>SlideShowPro.Director</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

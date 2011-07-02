@@ -12,12 +12,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License. 
 
-using System.Collections.Generic;
-
-namespace SlideShowPro.Api
+namespace SlideShowPro.Director
 {
-    internal class ContentListResponse
+    public class Format
     {
-        public List<Content> Contents { get; set; }
+        public bool Crop { get; set; }
+
+        public int Height { get; set; }
+
+        public int Quality { get; set; }
+
+        public bool Sharpening { get; set; }
+
+        public int Width { get; set; }
     }
 }

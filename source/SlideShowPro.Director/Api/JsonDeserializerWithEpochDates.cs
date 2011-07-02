@@ -24,7 +24,7 @@ using RestSharp.Deserializers;
 using RestSharp.Extensions;
 using System.Globalization;
 
-namespace SlideShowPro.Api
+namespace SlideShowPro.Director.Api
 {
     internal class JsonDeserializerWithEpochDates : IDeserializer
 	{

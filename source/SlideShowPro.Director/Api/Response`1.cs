@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License. 
 
-namespace SlideShowPro.Api
+namespace SlideShowPro.Director.Api
 {
     internal class Response<T> where T : class
     {

@@ -12,18 +12,29 @@
 // See the License for the specific language governing permissions and
 // limitations under the License. 
 
-namespace SlideShowPro
+using System;
+using System.Collections.Generic;
+
+namespace SlideShowPro.Director
 {
-    public class Format
+    public class Gallery
     {
-        public bool Crop { get; set; }
+        public List<Album> Albums { get; set; }
 
-        public int Height { get; set; }
+        public DateTime Created { get; set; }
 
-        public int Quality { get; set; }
+        public User Creator { get; set; }
 
-        public bool Sharpening { get; set; }
+        public string Description { get; set; }
 
-        public int Width { get; set; }
+        public long Id { get; set; }
+
+        public DateTime Modified { get; set; }
+
+        public string Name { get; set; }
+
+        public User Public { get; set; }
+
+        public User Updater { get; set; }
     }
 }

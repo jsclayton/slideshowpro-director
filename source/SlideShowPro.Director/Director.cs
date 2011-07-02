@@ -16,9 +16,9 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 using RestSharp;
-using SlideShowPro.Api;
+using SlideShowPro.Director.Api;
 
-namespace SlideShowPro
+namespace SlideShowPro.Director
 {
     public class Director
     {

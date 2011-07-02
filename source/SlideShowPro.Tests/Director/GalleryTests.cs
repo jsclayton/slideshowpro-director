@@ -15,7 +15,7 @@
 using FluentAssertions;
 using Xunit;
 
-namespace SlideShowPro
+namespace SlideShowPro.Director
 {
     public class GalleryTests
     {

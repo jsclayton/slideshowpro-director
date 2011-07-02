@@ -12,29 +12,39 @@
 // See the License for the specific language governing permissions and
 // limitations under the License. 
 
-namespace SlideShowPro
+using System;
+
+namespace SlideShowPro.Director
 {
-    public class User
+    public class Content
     {
-        public int ContentCount { get; set; }
+        public long AlbumId { get; set; }
+
+        public DateTime CapturedOn { get; set; }
+
+        public DateTime Created { get; set; }
 
         public User Creator { get; set; }
 
-        public string DisplayName { get; set; }
+        public string Caption { get; set; }
 
-        public string First { get; set; }
+        public long FileSize { get; set; }
 
         public long Id { get; set; }
 
-        public string Last { get; set; }
+        public DateTime Modified { get; set; }
 
-        public int Photos { get; set; }
-
-        public string Profile { get; set; }
+        public Image Original { get; set; }
 
         public User Public { get; set; }
 
-        public string Username { get; set; }
+        public int Seq { get; set; }
+
+        public string Tags { get; set; }
+
+        public string Title { get; set; }
+
+        public int TotalCount { get; set; }
 
         public User Updater { get; set; }
     }

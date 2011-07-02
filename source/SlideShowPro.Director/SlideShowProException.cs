@@ -16,7 +16,7 @@ using System;
 using System.Net;
 using RestSharp;
 
-namespace SlideShowPro
+namespace SlideShowPro.Director
 {
     public class SlideShowProException : Exception
     {

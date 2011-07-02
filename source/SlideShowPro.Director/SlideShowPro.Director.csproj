@@ -8,8 +8,8 @@
     <ProjectGuid>{BA2185D5-0447-486B-902A-8206D84853AD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SlideShowPro</RootNamespace>
-    <AssemblyName>SlideShowPro</AssemblyName>
+    <RootNamespace>SlideShowPro.Director</RootNamespace>
+    <AssemblyName>SlideShowPro.Director</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>

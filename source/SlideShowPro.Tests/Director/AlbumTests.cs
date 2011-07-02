@@ -15,11 +15,11 @@
 using FluentAssertions;
 using Xunit;
 
-namespace SlideShowPro
+namespace SlideShowPro.Director
 {
-    public class ContentTests
+    public class AlbumTests
     {
-        public ContentTests()
+        public AlbumTests()
         {
             Director = new Director(Config.Path);
         }
@@ -27,27 +27,28 @@ namespace SlideShowPro
         public Director Director { get; private set; }
 
         [Fact]
-        public void CanGetAllContent()
+        public void CanGetAllAlbums()
         {
-            var contents = Director.GetContents();
-            contents.Should().NotBeNull();
-            contents.Should().NotBeEmpty();
+            var albums = Director.GetAlbums();
+            albums.Should().NotBeNull();
+            albums.Should().NotBeEmpty();
         }
 
         [Fact]
-        public void CanGetContent()
+        public void CanGetSingleAlbum()
         {
-            var content = Director.GetContent(Config.NonEmptyContentId);
-            content.Should().NotBeNull();
+            var album = Director.GetAlbum(Config.NonEmptyAlbumId);
+            album.Should().NotBeNull();
+            album.Preview.Should().BeNull();
         }
 
         [Fact]
-        public void CanLimitContent()
+        public void CanGetSingleAlbumWithPreview()
         {
-            var contents = Director.GetContents(limit: 5);
-            contents.Should().NotBeNull();
-            contents.Should().NotBeEmpty();
-            contents.Should().HaveCount(5);
+            var preview = new Format { Width = 720, Height = 405, Crop = true, Quality = 85, Sharpening = true };
+            var album = Director.GetAlbum(Config.NonEmptyAlbumId, preview);
+            album.Should().NotBeNull();
+            album.Preview.Should().NotBeNull();
         }
     }
 }

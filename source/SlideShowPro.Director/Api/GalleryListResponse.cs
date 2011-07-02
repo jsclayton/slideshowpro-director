@@ -12,29 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License. 
 
-using System;
 using System.Collections.Generic;
 
-namespace SlideShowPro
+namespace SlideShowPro.Director.Api
 {
-    public class Gallery
+    internal class GalleryListResponse
     {
-        public List<Album> Albums { get; set; }
-
-        public DateTime Created { get; set; }
-
-        public User Creator { get; set; }
-
-        public string Description { get; set; }
-
-        public long Id { get; set; }
-
-        public DateTime Modified { get; set; }
-
-        public string Name { get; set; }
-
-        public User Public { get; set; }
-
-        public User Updater { get; set; }
+        public List<Gallery> Galleries { get; set; }
     }
 }

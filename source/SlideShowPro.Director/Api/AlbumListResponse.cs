@@ -12,14 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License. 
 
-namespace SlideShowPro
+using System.Collections.Generic;
+
+namespace SlideShowPro.Director.Api
 {
-    public class Image
+    internal class AlbumListResponse
     {
-        public int Height { get; set; }
-
-        public string Url { get; set; }
-
-        public int Width { get; set; }
+        public List<Album> Albums { get; set; }
     }
 }
