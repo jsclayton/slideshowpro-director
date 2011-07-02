@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>SlideShowPro.Director</id>
+		<version>0.1</version>
+		<authors>John Clayton</authors>
+		<owners>John Clayton</owners>
+		<projectUrl>https://github.com/jsclayton/slideshowpro-director</projectUrl>
+		<licenseUrl>https://github.com/jsclayton/slideshowpro-director/blob/master/LICENSE.txt</licenseUrl>
+		<description>A client library for the SlideShowPro Director photo publishing platform.</description>
+		<tags>photo photography slideshowpro director</tags>
+		<dependencies>
+			<dependency id="Newtonsoft.Json" />
+			<dependency id="RestSharp" />
+		</dependencies>
+	</metadata>
+</package>
