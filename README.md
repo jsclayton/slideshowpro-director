@@ -14,7 +14,6 @@ Usage
 Yet to implement
 ----------------
 
-- NuGet package
 - MVC 3 integration
 - Caching
 
