@@ -1,9 +1,14 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideShowPro.Tests", "SlideShowPro.Tests\SlideShowPro.Tests.csproj", "{1700EF6C-F8F9-44F4-B04D-F7BA31BD103C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideShowPro.Director", "SlideShowPro.Director\SlideShowPro.Director.csproj", "{BA2185D5-0447-486B-902A-8206D84853AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{976B0D42-B0AF-4489-9A22-EB1491991DDC}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

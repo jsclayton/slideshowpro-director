@@ -121,7 +121,7 @@ namespace SlideShowPro.Director
         private RestClient CreateClient()
         {
             var client = new RestClient(String.Format("http://{0}/api/", Path));
-            client.AddHandler("text/javascript", new JsonDeserializerWithEpochDates());
+            //client.AddHandler("text/javascript", new JsonDeserializerWithEpochDates());
             return client;
         }
     }
